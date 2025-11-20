@@ -281,4 +281,39 @@ body {
     .photo-placeholder {
         height: 200px;
     }
+
+}
+/* Links sociais */
+.social-links {
+    margin-top: 20px;
+}
+
+.instagram-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background: linear-gradient(45deg, #E1306C, #F77737, #FCAF45);
+    color: white;
+    text-decoration: none;
+    padding: 12px 25px;
+    border-radius: 25px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    box-shadow: 0 5px 15px rgba(225, 48, 108, 0.3);
+}
+
+.instagram-link:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 25px rgba(225, 48, 108, 0.5);
+    background: linear-gradient(45deg, #F77737, #E1306C, #C13584);
+}
+
+.instagram-icon {
+    font-size: 1.3em;
+    animation: instaPulse 2s infinite alternate;
+}
+
+@keyframes instaPulse {
+    0% { transform: scale(1); }
+    100% { transform: scale(1.2); }
 }
